@@ -1,0 +1,337 @@
+var simplemaps_countrymap_mapdata={
+  main_settings: {
+   //General settings
+    width: "responsive", //'700' or 'responsive'
+    background_color: "white",
+    background_transparent: "no",
+    border_color: "black",
+    
+    //State defaults
+    state_description: "State description",
+    state_color: "#88A4BC",
+    state_hover_color: "#e20000",
+    state_url: "https://simplemaps.com",
+    border_size: "3",
+    all_states_inactive: "no",
+    all_states_zoomable: "yes",
+    
+    //Location defaults
+    location_description: "Location description",
+    location_color: "#ef122e",
+    location_opacity: 0.8,
+    location_hover_opacity: 1,
+    location_url: "",
+    location_size: "25",
+    location_type: "square",
+    location_image_source: "frog.png",
+    location_border_color: "#FFFFFF",
+    location_border: 2,
+    location_hover_border: 2.5,
+    all_locations_inactive: "no",
+    all_locations_hidden: "no",
+    
+    //Label defaults
+    label_color: "#000000",
+    label_hover_color: "#ffffff",
+    label_size: "28",
+    label_font: "Arial",
+    hide_labels: "no",
+    hide_eastern_labels: "no",
+   
+    //Zoom settings
+    zoom: "yes",
+    back_image: "no",
+    initial_back: "no",
+    initial_zoom: "-1",
+    initial_zoom_solo: "no",
+    region_opacity: 1,
+    region_hover_opacity: 0.6,
+    zoom_out_incrementally: "yes",
+    zoom_percentage: 0.99,
+    zoom_time: 0.5,
+    
+    //Popup settings
+    popup_color: "white",
+    popup_opacity: 0.9,
+    popup_shadow: 1,
+    popup_corners: 5,
+    popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
+    popup_nocss: "no",
+    
+    //Advanced settings
+    div: "map",
+    auto_load: "yes",
+    url_new_tab: "no",
+    images_directory: "default",
+    fade_time: 0.1,
+    link_text: "View Website",
+    popups: "detect",
+    state_image_url: "",
+    state_image_position: "",
+    location_image_url: "",
+    manual_zoom: "yes"
+  },
+  state_specific: {
+    "0": {},
+    "1": {
+      name: "Andaman And Nicobar",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands",
+      color: "blue",
+      description: "The Andaman and Nicobar Islands is a union territory of India consisting of 572 islands, of which 37 are inhabited, at the junction of the Bay of Bengal and the Andaman Sea. The territory is about 150 km (93 mi) north of Aceh in Indonesia and separated from Thailand and Myanmar by the Andaman Sea. Andaman and Nicobar Islands have India's best nesting beaches for three species of marine turtles.           (CLICK TO READ MORE.)"
+    },
+    "2": {
+      name: "Andhra Pradesh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Andhra_Pradesh",
+      color: "#138808",
+      description: "Andhra Pradesh is located in the south eastern coast of India and is the eighth largest state in the country. The state is bordered by Chhattisgarh to the north, Odisha to the northeast, Telangana and Karnataka to the west, Tamil Nadu to the south, and the Bay of Bengal to the east. The state of Andhra Pradesh is most famous for its Tirupati Temple.          ( CLICK TO READ MORE. )"
+    },
+    "3": {
+      name: "Arunachal Pradesh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Arunachal_Pradesh",
+      color: "#FF9933",
+      description: "Arunachal Pradesh is the largest of the Seven Sister States of Northeast India by area. Arunachal Pradesh shares a 1,129 km border with China's Tibet Autonomous Region. As of the 2011 Census of India, Arunachal Pradesh has a population of 1,382,611 and an area of 83,743 square kilometres (32,333 sq mi). Popularly known as 'Land of the Dawn-lit-Mountains', Arunachal Pradesh is India's remotest state and the first Indian soil to greet the rising sun.              ( CLICK TO READ MORE. )"
+    },
+    "4": {
+      name: "Assam",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Assam",
+      color: "#FF9933",
+      description: "Assam is a state in northeastern India, south of the eastern Himalayas along the Brahmaputra and Barak River valleys. Assam covers an area of 78,438 km2 (30,285 sq mi). Assam is India's gateway to northeast and acts as a vital link for trade with Southeast Asian countries. The state is known for its tea, petroleum resources, muga silk and biodiversity.          (CLICK TO READ MORE.)"
+    },
+    "5": {
+      name: "Bihar",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Bihar",
+      color: "#FF9933",
+      description: "Bihar, state of eastern India. It is bounded by Nepal to the north and by the Indian states of West Bengal to the northeast and Uttar Pradesh to the west. In November 2000 the new state of Jharkhand was created from Bihar's southern provinces and now forms the state's southern and southeastern borders. : Bihar is the origin of the two biggest religions in the world, namely Buddhism and Jainism. World's Oldest University! : Nalanda library was set on fire by the army of Bakhtiyar Khilji.             ( CLICK TO READ MORE.)"
+    },
+    "6": {
+      name: "Chandigarh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Chandigarh",
+      color: "#138808",
+      description: "Chandigarh, the dream city of India's first Prime Minister, Sh. Jawahar Lal Nehru, was planned by the famous French architect Le Corbusier. Picturesquely located at the foothills of Shivaliks, it is known as one of the best experiments in urban planning and modern architecture in the twentieth century in India. Also known as \"City Beautiful\", Chandigarh is a tourism paradise with Sukhna Lake, Rock garden, Rose garden and architectural marvel Capitol Complex.                ( CLICK TO KNOW MORE.)"
+    },
+    "7": {
+      name: "Chhattisgarh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Chhattisgarh",
+      color: "white",
+      description: "It is bounded by the Indian states of Uttar Pradesh and Jharkhand to the north and northeast, Odisha to the east, Telangana to the south, and Maharashtra and Madhya Pradesh to the west. Its capital is Raipur. Chhattisgarh is an uniquely Indian experience. Home to the country's widest waterfalls, caves, lush green forests, ancient monuments, rare wild life, exquisitely curved temples, Buddhist sites and hill plateaus.       (CLICK TO READ MORE. )"
+    },
+    "8": {
+      name: "Dadra And Nagar Haveli",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli",
+      color: "#138808",
+      description: "It lies some 15 miles (24 km) from the Arabian Sea and about 80 miles (130 km) north of Mumbai (Bombay). The territory consists of two sections—Dadra and Nagar Haveli—which together embrace roughly 70 villages. Its administrative headquarters is located in Silvassa. Area 190 square miles (491 square km). Endowed with immense natural beauty and lush greenery, Dadra and Nagar Haveli is one of the most beautiful Union Territories in the country.                   ( CLICK TO READ MORE. )"
+    },
+    "9": {
+      name: "Daman And Diu",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Daman_and_Diu",
+      color: "#138808",
+      description: "Endowed with immense natural beauty and lush greenery, Dadra and Nagar Haveli is one of the most beautiful Union Territories in the country. The historical Portugese monuments, the golden beaches, unpolluted blue water, various water sports and friendly people make Diu a perfect gateway at any time of the year.                ( CLICK TO READ MORE.)"
+    },
+    "10": {
+      name: "Delhi",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Delhi",
+      color: "#FF9933",
+      description: "Delhi, city and national capital territory, north-central India. The city of Delhi actually consists of two components: Old Delhi, in the north, the historic city; and New Delhi, in the south, since 1947 the capital of India, built in the first part of the 20th century as the capital of British India. Delhi is currently the second most populated city in the world.                     (CLICK TO READ MORE.)"
+    },
+    "11": {
+      name: "Goa",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Goa",
+      color: "#138808",
+      description: "It is located about 250 miles (400 km) south of Mumbai (Bombay). One of India's smallest states, it is bounded by the states of Maharashtra on the north and Karnataka on the east and south and by the Arabian Sea on the west. The capital is Panaji , on the north-central coast of the mainland district. Goa is one of the most favorite destination among Indian tourists due to its pristine beaches.               (CLICK TO READ MORE.)"
+    },
+    "12": {
+      name: "Gujarat",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Gujarat",
+      color: "white",
+      description: "Gujarat is a land of great contrasts, stretching from the seasonal salt deserts of the Kachchh (Kutch) district in the northwest, across the generally arid and semiarid scrublands of the Kathiawar Peninsula, to the wet, fertile, coastal plains of the southeastern part of the state, north of Mumbai. It is known as \"Jewel of Western India\".                           (CLICK TO READ MORE.)"
+    },
+    "13": {
+      name: "Haryana",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Haryana",
+      color: "#FF9933",
+      description: "Haryana is an Indian state located in the northern part of the country. It was carved out of the former state of East Punjab on 1 November 1966 on a linguistic basis. It is ranked 21st in terms of area, with less than 1.4% (44,212 km2 or 17,070 sq mi) of India's land area. Haryana is well known for its cattle wealth and is the home of the famous Murrah buffalo and the Haryana cow.              ( CLICK TO READ MORE.)"
+    },
+    "14": {
+      name: "Himachal Pradesh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Himachal_Pradesh",
+      color: "#FF9933",
+      description: "Himachal Pradesh is the northernmost state of India and shares borders with the union territories of Jammu and Kashmir and Ladakh to the north, and the states of Punjab to the west, Haryana to the southwest, Uttarakhand to the southeast and a very narrow border with Uttar Pradesh to the south. The entire State is punctuated with stone as well as wood temples."
+    },
+    "15": {},
+    "16": {
+      name: "Jharkhand",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Jharkhand",
+      color: "white",
+      description: "Jharkhand is famous for its rich mineral resources like Uranium, Mica, Bauxite, Granite, Gold, Silver, Graphite, Magnetite, Dolomite, Fireclay, Quartz, Fieldspar, Coal (32% of India), Iron, Copper (25%of India) etc. Forests and woodlands occupy more than 29% of the state which is amongst the highest in India. Jharkhand is also known as 'The land of forest\" or 'Bushland'. It is situated in northeastern India.                  (CLICK TO READ MORE.)"
+    },
+    "17": {
+      name: "Karnataka",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Karnataka",
+      color: "#138808",
+      description: "Karnataka, formerly (until 1973) Mysore, state of India, located on the western coast of the subcontinent. It is bounded by the states of Goa and Maharashtra to the north, Telangana to the east, Tamil Nadu to the southeast, and Kerala to the south and by the Arabian Sea to the west. Karnataka is primarily known for its Heritage destinations and its Wildlife/ National Parks.                     (CLICK TO READ MORE.)"
+    },
+    "18": {
+      name: "Kerala",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Kerala",
+      color: "#138808",
+      description: "It was formed on 1 November 1956, following the passage of the States Reorganisation Act, by combining Malayalam-speaking regions of the erstwhile regions of Cochin, Malabar, South Canara, and Travancore. Spread over 38,863 km2 (15,005 sq mi), Kerala is the 21st largest Indian state by area. Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.     (CLICK TO READ MORE.)"
+    },
+    "19": {
+      name: "Lakshadweep",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Lakshadweep",
+      color: "#138808",
+      description: "India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands. The islands comprise of 32 sq km. Lakshadweep, the group of 36 islands is known for its exotic and sun-kissed beaches and lush green landscape.    (CLICK TO READ MORE.)"
+    },
+    "20": {
+      name: "Madhya Pradesh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Madhya_Pradesh",
+      color: "white",
+      image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdHItyV2VwX4Dnm7NIJRgCs4laGYZN8n-b3A&usqp=CAU",
+      description: "Madhya Pradesh with an area of 3,08,245 sq.km. is the second largest state in India. It is located in Central India. The state is bound on the north by Uttar Pradesh, the east by Chhattisgarh, the south by Maharashtra and the west by Gujarat and Rajasthan. Madhya Pradesh is known as the “Heart of India” because of a lot many things that it has to offer.     (CLICK TO READ MORE.)"
+    },
+    "21": {
+      name: "Maharashtra",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Maharashtra",
+      color: "green",
+      description: "Maharashtra is the second-most populous state in India and the second-most populous country subdivision globally. It was formed on 1 May 1960 by splitting the bilingual Bombay State, which had existed since 1956, into majority Marathi-speaking Maharashtra and Gujarati-speaking Gujarat. Maharashtra is one of India's largest commercial and industrial centres, which has led to its being called the gateway of India.    (CLICK TO READ MORE.)"
+    },
+    "22": {
+      name: "Manipur",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Manipur",
+      color: "#FF9933",
+      description: "Manipur, state of India, located in the northeastern part of the country. It is bordered by the Indian states of Nagaland to the north, Assam to the west, and Mizoram to the southwest and by Myanmar (Burma) to the south and east. Like other northeastern states, it is largely isolated from the rest of India. The state has a rich cultural past dating back to centuries. It is the birthplace of Raas Lila- a renowned form of classical dance which was created by Maharaja Bhagyachandra. Manipur is also the birthplace of Modern Polo and the locals call this game 'Sagol Kangjei'.   (CLICK TO READ MORE.)"
+    },
+    "23": {
+      name: "Meghalaya",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Meghalaya",
+      color: "#FF9933",
+      description: "Meghalaya, state of India, located in the northeastern part of the country. It is bounded by the Indian state of Assam to the north and northeast and by Bangladesh to the south and southwest. The state capital is the hill town of Shillong, located in east-central Meghalaya.    (CLICK TO READ MORE.)"
+    },
+    "24": {
+      name: "Mizoram",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Mizoram",
+      color: "#FF9933",
+      description: "Mizoram (“Land of the Mizos”) was known as the Lushai Hills District of Assam before it was renamed the Mizo Hills District in 1954. In 1972 it became a centrally administered union territory under the name of Mizoram, and in 1987 it achieved statehood. Area 8,139 square miles (21,081 square km). Mizoram has a moderate and pleasant climate throughout the year, and is an idyllic land of great natural beauty having rich variety of flora and fauna which is an added attraction to the nature lovers.    (CLICK TO READ MORE.)"
+    },
+    "25": {
+      name: "Nagaland",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Nagaland",
+      color: "#FF9933",
+      description: "The State of Nagaland was formally inaugurated on December 1st, 1963, as the 16th State of the Indian Union. It is bounded by Assam in the West, Myanmar (Burma) on the east, Arunachal Pradesh and part of Assam on the North and Manipur in the South. NAGALAND is a land of festivals. All the tribes celebrate their distinct seasonal festivals with a pageantry of colour and a feast of music. Nagaland has a rich linguistic tradition with as many languages as there are tribes, each exclusive to itself.    (CLICK TO READ MORE.)"
+    },
+    "26": {
+      name: "Orissa",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Odisha",
+      color: "white",
+      description: "Odisha, formerly called Orissa, state of India. Located in the northeastern part of the country, it is bounded by the states of Jharkhand and West Bengal to the north and northeast, by the Bay of Bengal to the east, and by the states of Andhra Pradesh and Telangana to the south and Chhattisgarh to the west.     (CLICK TO READ MORE.)"
+    },
+    "27": {
+      name: "Puducherry",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Pondicherry",
+      color: "#138808",
+      description: "It was formed in 1962 out of the four former colonies of French India: Pondicherry (now Puducherry) and Karaikal along India’s southeastern Coromandel Coast, surrounded by Tamil Nadu state; Yanam, farther north along the eastern coast in the delta region of the Godavari River, surrounded by Andhra Pradesh state; and Mahe, lying on the western Malabar Coast, surrounded by Kerala state. The territory’s capital is the city of Puducherry in the Puducherry sector, just north of Cuddalore. Puducherry is famous for its colonial architecture, a mix of French and Tamilian culture and heritage, and its gorgeous beaches. It is also known for its cosy and cute cafes and chic boutiques.              (CLICK TO READ MORE.)"
+    },
+    "28": {
+      name: "Punjab",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Punjab,_India",
+      color: "#FF9933",
+      description: "With over 27 million inhabitants, Punjab is the 16th-largest Indian state by population, comprising 23 districts. Punjabi, written in the Gurmukhi script, is the most widely spoken and the official language of the state. The main ethnic groups are the Punjabis, with Sikhs and Hindus as the dominant religious groups. Punjab makes up for about 17% of India's wheat production,around 12% of its rice production, and around 5% of its milk production, being known as India's breadbasket.    (CLICK TO READ MORE.)"
+    },
+    "29": {
+      name: "Rajasthan",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Rajasthan",
+      color: "#FF9933",
+      description: "Rajasthan 'Land of Kings' or 'Land of Kingdom' is India's largest state by area. The state located on northwest part of country and is a home of cultural diversity. Its features include the ruins of Indus Valley Civilization, Temples, Forts and Fortresses in almost every city. Rajasthan is known for its historical hill forts & palaces, it is claimed as the best place for tourism-related to palaces. Umaid Bhawan Palace: It is the largest Royal Palace in Rajasthan. (CLICK TO READ MORE.)"
+    },
+    "30": {
+      name: "Sikkim",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Sikkim",
+      color: "#FF9933",
+      description: "A part of the Eastern Himalaya, Sikkim is notable for its biodiversity, including alpine and subtropical climates, as well as being a host to Kangchenjunga, the highest peak in India and third highest on Earth. Sikkim's capital and largest city is Gangtok. Sikkim is a State in Northeast India. It is one of the fastest growing, multiethnic and multilingual Indian state.         (CLICK TO READ MORE.)"
+    },
+    "31": {
+      name: "Tamil Nadu",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Tamil_Nadu",
+      color: "#138808",
+      description: "Tamil Nadu is a state in southern India. It covers more than 50,200 square miles (130,000 square km). Tamil people constitute the majority of the state's population, and Tamil is the state's official language. Tamil Nadu's capital is Chennai, which is an industrial centre, but the state is essentially agricultural. The Tamil people built great temples, irrigation tanks, dams, and roads, and they played an important role in the transmission of Indian culture to Southeast Asia.         ( CLICK TO READ MORE.)"
+    },
+    "32": {
+      name: "Tripura",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Tripura",
+      color: "#FF9933",
+      description: "Tripura is a state in North-East India. It shares borders with Bangladesh, Mizoram and Assam. Tripura is surrounded by Bangladesh on its north, south and west. The length of its international border is 856 km (84 per cent of its total border). Tripura is famous for its cultivations, tea plantations, beautiful gardens, toy trains and much more. Being known for its breathtaking scenic view, this state is also popular for its tribe culture and food.        (CLICK TO READ MORE.)"
+    },
+    "33": {
+      name: "Uttar Pradesh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Uttar_Pradesh",
+      color: "#FF9933",
+      description: "Uttar Pradesh, with a total area of 243,290 square kilometres (93,935 sq mi), is India's fourth-largest state in terms of land area and is roughly of same size as United Kingdom. It is also home of India's most visited sites, the Taj Mahal, and Hinduism's holiest city, Varanasi. Kathak, one of the eight forms of Indian classical dances, originated from Uttar Pradesh                ( CLICK TO READ MORE.)"
+    },
+    "34": {
+      name: "Uttarakhand",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Uttarakhand",
+      color: "#FF9933",
+      description: "Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study, was made famous by the Beatles' 1968 visit. Uttarakhand was formed on the 9th November 2000 as the 27th State of India, when it was carved out of northern Uttar Pradesh.                     (CLICK TO READ MORE.)"
+    },
+    "35": {
+      name: "West Bengal",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/West_Bengal",
+      color: "white",
+      description: "Covering an area of 88,752 km2 (34,267 sq mi), it is also the eighth-most populous country subdivision of the world. West Bengal is famous for its terracotta temples of Bishnupur. Hazarduari Palace, a popular tourist attraction, is known to have the second largest chandelier in the world and also the largest staircase in India.                                      ( CLICK TO READ MORE.)"
+    },
+    "36": {
+      name: "Jammu And Kashmir",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(state)",
+      color: "#FF9933",
+      description: "Jammu and Kashmir, formerly one of the largest princely states of India, is bounded to the east by the Indian union territory of Ladakh, to the south by the Indian states of Himachal Pradesh and Punjab, to the southwest by Pakistan, and to the northwest by the Pakistani-administered portion of Kashmir.                        ( CLICK TO READ MORE.)"
+    },
+    "37": {
+      name: "Telangana",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Telangana",
+      color: "#138808",
+      description: "Telangana is the 29th state of India, formed on the 2nd of June 2014. The state has an area of 1,14,840 Sq Km and has a population of 3,52,86,757. The Telangana region was part of the Hyderabad state from Sept 17th 1948 to Nov 1st 1956, until it was merged with Andhra state to form the Andhra Pradesh state                (CLICK TO READ MORE.)"
+    },
+    "38": {
+      name: "Ladakh",
+      hover_color: "#ff0067",
+      url: "https://en.wikipedia.org/wiki/Ladakh",
+      color: "#FF9933",
+      description: "Ladakh covers about 45,000 square miles (117,000 square km) and contains the Ladakh Range, which is a southeastern extension of the Karakoram Range, and the upper Indus River valley. Ladakh is one of the highest regions of the world. Its natural features consist mainly of high plains and deep valleys.                  (CLICK TO READ MORE.)"
+    },
+    
